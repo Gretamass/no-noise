@@ -1,0 +1,41 @@
+.serviceContainer{
+    background-color: white;
+    width: 100%;
+    max-width: 1140px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+}
+
+.servicePhotoDiv{
+    padding-left: 64px;
+    width: 25%;
+}
+
+.serviceImage{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.serviceText{
+    padding-right: 64px;
+    text-align: right;
+}
+
+.serviceName{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.serviceInfo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 24px;
+}

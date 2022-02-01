@@ -1,0 +1,21 @@
+.hero {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.photoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 360px;
+
+}
+
+.heroPhoto{
+    width: 90%;
+}

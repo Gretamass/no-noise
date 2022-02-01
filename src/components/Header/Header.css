@@ -1,0 +1,40 @@
+.header{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    /* STICKY HEADER 
+    position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navList{
+    font-weight: 500;
+    padding: 10px;
+    text-transform:uppercase;
+
+}
+
+.logo{
+    width: 72px;
+    height: 72px;
+    padding: 16px;
+}
+
+.logoHeader{
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,11 @@
+.primaryButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 16px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border:none
+}
