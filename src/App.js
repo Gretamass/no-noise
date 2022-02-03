@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import WhiteLine from './components/WhiteLine/WhiteLine';
-import Design from './components/Design/Design';
+import Services from './components/Services/Services';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
       <Header />
       <Hero />
       <WhiteLine />
-      <Design />
+      <Services />
       
-      <Hero />
+      <Footer />
     </div>
   );
 }

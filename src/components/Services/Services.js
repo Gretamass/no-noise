@@ -1,32 +1,23 @@
 import React from 'react';
 import './Services.css';
+import Service from '../Service/Service';
+import { designData, salesData, rentalData  } from '../Service/data';
 
-import photo1 from '../images/design1.png';
-import PrimaryButton from '../PrimaryButton/PrimaryButton';
-
-const Services = () => {
+const Design = () => {
   return (
-    <div className='serviceContainer'>
-        <div className='servicePhotoDiv'>
-            <img src={photo1} className='serviceImage'/>
-        </div>
-        <div className='serviceText'>
-            <div className='serviceName'>
-                TRIUKŠMO KONTROLĖ IR AKUSTIKA
-            </div>
-            <div className='serviceInfo'>
-                PATALPŲ AKUSTIKA <br />
+    <div className='services'>
+        <div className='containerTitle'>Servisas</div>
+        <Service data={designData} />
 
-                GARSO IZOLIACIJA <br />
+        <div className='containerTitle'>Servisas</div>
+        <Service data={salesData} />
 
-                TRIUKŠMO IR GARSO VALDYMO SPRENDIMAI
-            </div>
-            <div className='serviceButton'>
-                <PrimaryButton buttontext="Plačiau" />
-            </div>
-        </div>
+        <div className='containerTitle'>Servisas</div>
+        <Service data={rentalData} />
+
+        
     </div>
   );
 };
 
-export default Services;
+export default Design;

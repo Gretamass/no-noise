@@ -1,0 +1,98 @@
+.footerFull{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    flex-direction: column;
+}
+
+.footerContainer{
+    width: 100%;
+    max-width: 1140px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    padding-left: 64px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footerRight{
+    padding-right: 64px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.companyInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.logoThumbnail{
+    width: 45px;
+    padding-right: 40px;
+}
+.imageThumbnail{
+    width: 100%;
+}
+
+
+.companyText{
+    color: #DBB124;
+    font-size: 1.1rem;
+}
+
+.companyContacts{
+    color: #DBB124;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.headerContacts{
+    font-weight: 500;
+    padding-bottom: 8px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    
+}
+
+.infoContacts{
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.c{
+    color: #DBB124;
+    font-size: 0.9rem;
+}
+
+.socialMedia{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.smIcon{
+    padding-right: 16px;
+    width: 36px;
+    height: 36px;
+    color: #DBB124;
+}
+/* background-color: #DBB124; */
+
