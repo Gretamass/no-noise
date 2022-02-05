@@ -1,4 +1,4 @@
 .whiteLine{
-    background-color: white;
+    background-color: var(--background-white);
     height: 32px;
 }

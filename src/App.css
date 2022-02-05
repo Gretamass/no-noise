@@ -1,8 +1,71 @@
+
+:root{
+  --accent-color: #DBB124;
+
+  /* LIGHT MODE */
+  --text-on-white-light: black;
+  --background-white-light: white;
+  --text-on-black-light: white;
+  --background-black-light: black;
+  --button-gb-light: black;
+  --button-text-light: white;
+  /* DARK MODE */
+
+  --text-on-white-dark: white;
+  --background-white-dark: black;
+  --text-on-black-dark: black;
+  --background-black-dark: white;
+  --button-bg-dark: white;
+  --button-text-dark: black;
+}
+
+@media (prefers-color-scheme: dark){
+
+  :root{
+    --text-on-white: var(--text-on-white-dark);
+    --background-white: var(--background-white-dark);
+    --text-on-black: var(--text-on-white-dark);
+    --background-black: var(--background-white-dark);
+    --button-bg: var(--button-bg-dark);
+    --button-text: var(--button-text-dark);
+  }
+}
+
+[color-scheme="dark"]{
+  --text-on-white: var(--text-on-white-dark);
+  --background-white: var(--background-white-dark);
+  --text-on-black: var(--text-on-white-dark);
+  --background-black: var(--background-white-dark);
+  --button-bg: var(--button-bg-dark);
+  --button-text: var(--button-text-dark);
+}
+
+@media (prefers-color-scheme: light){
+
+  :root{
+    --text-on-white: var(--text-on-white-light);
+    --background-white: var(--background-white-light);
+    --text-on-black: var(--text-on-black-light);
+    --background-black: var(--background-black-light);
+    --button-bg:  var(--button-bg-light);
+    --button-text: var(--button-text-light);
+  }
+}
+
+[color-scheme="light"] {
+  --text-on-white: var(--text-on-white-light);
+  --background-white: var(--background-white-light);
+  --text-on-black: var(--text-on-black-light);
+  --background-black: var(--background-black-light);
+  --button-bg:  var(--button-bg-light);
+  --button-text: var(--button-text-light);
+}
+
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
 html {  font-family: 'Inter var', sans-serif;
-        color: white; }
+        color: var(--text-on-black); }
 }
 
 html,
@@ -16,11 +79,11 @@ body {
 }
 .App {
   text-align: center;
-  background-color: black;
+  background-color: var(--background-black);
 }
 
 body{
-  background-color: black;
+  background-color: var(--background-black);
 }
 
 .container{

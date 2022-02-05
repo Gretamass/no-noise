@@ -1,6 +1,6 @@
 .primaryButton{
-    background-color: black;
-    color: white;
+    background-color: var(--button-bg);
+    color: var(--button-text);
     height: 40px;
     width: 130px;
     border-radius: 16px;

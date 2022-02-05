@@ -1,6 +1,6 @@
 .serviceFull{
     border-radius: 8px;
-    background-color: white;
+    background-color: var(--background-white);
     width: 100%;
     max-width: 1140px;
 }   
@@ -14,13 +14,13 @@
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: black;
+    color: var(--text-on-white);
     border:none;
 }
 
 .serviceContainer + .serviceContainer{
-    border-top: 2px solid black;
-    border-image: linear-gradient(to right, rgba(0,0,0,0) 5%, #000 5%, #000 95%, rgba(0,0,0,0) 95%); /* to top - at 50% transparent */
+    border-top: 2px solid var(--background-black);
+    border-image: linear-gradient(to right, rgba(0,0,0,0) 5%,var(--text-on-white) 5%, var(--text-on-white) 95%, rgba(0,0,0,0) 95%); /* to top - at 50% transparent */
     border-image-slice: 1;
 }
 
@@ -35,7 +35,7 @@
 .serviceImage{
     width: 100%;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--background-black);
     text-decoration: none;
 }
 

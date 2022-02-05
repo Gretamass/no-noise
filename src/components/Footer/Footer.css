@@ -49,12 +49,12 @@
 
 
 .companyText{
-    color: #DBB124;
+    color: var( --accent-color);
     font-size: 1.1rem;
 }
 
 .companyContacts{
-    color: #DBB124;
+    color: var( --accent-color);;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -77,7 +77,7 @@
 }
 
 .c{
-    color: #DBB124;
+    color: var( --accent-color);;
     font-size: 0.9rem;
 }
 
@@ -92,7 +92,7 @@
     padding-right: 16px;
     width: 36px;
     height: 36px;
-    color: #DBB124;
+    color: var( --accent-color);;
 }
-/* background-color: #DBB124; */
+/* background-color: var( --accent-color);; */
 

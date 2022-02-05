@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { lightTheme, darkTheme } from '../../colorMode.js';
+import { ThemeProvider } from 'styled-components';
 
 import logo from '../images/logo.png';
 
 const Header = () => {
+  const [theme, setTheme] = useState("light"); 
+
+  const themeToggler = () => {
+    console.log("SWITCH");
+    theme === "light" ?
+    setTheme("dark") :
+    setTheme ("light");
+    console.log("SWITCHED");
+  }
+
   return (
     <div className='header'>
         <div className='container headerContainer'> 
@@ -21,8 +33,11 @@ const Header = () => {
                 <div className='navList'><Link to="/projects">Įgyvendinti projektai</Link></div>
                 <div className='navList'><Link to="/contacts">Kontaktai</Link></div>
                 <div className='navList'><Link to="/eng">ENG</Link></div>
+                <button class="theme" onClick={themeToggler}></button>
 
             </div>
+
+
         </div>
     </div>
 
