@@ -6,10 +6,10 @@ import { designData, salesData, rentalData  } from '../Service/data';
 const Design = () => {
   return (
     <div className='services'>
-        <div className='containerTitle'>Servisas</div>
+        <div className='containerTitle'>Projektavimas</div>
         <Service data={designData} />
 
-        <div className='containerTitle'>Servisas</div>
+        <div className='containerTitle'>Prekyba</div>
         <Service data={salesData} />
 
         <div className='containerTitle'>Servisas</div>
