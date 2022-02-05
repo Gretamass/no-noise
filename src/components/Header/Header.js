@@ -11,14 +11,14 @@ const Header = () => {
             </div>
 
             <div className='navbar'>
-                <div className='navList'>Naujienos</div>
-                <div className='navList'>Apie Mus</div>
-                <div className='navList'>Paslaugos</div>
-                <div className='navList'>Prekyba</div>
-                <div className='navList'>Mūsų Klientai</div>
-                <div className='navList'>Įgyvendinti projektai</div>
-                <div className='navList'>Kontaktai</div>
-                <div className='navList'>ENG</div>
+                <div className='navList'><a href="/news">Naujienos</a></div>
+                <div className='navList'><a href="/aboutus">Apie Mus</a></div>
+                <div className='navList'><a href="/services">Paslaugos</a></div>
+                <div className='navList'><a href="/sales">Prekyba</a></div>
+                <div className='navList'><a href="/clients">Mūsų Klientai</a></div>
+                <div className='navList'><a href="/projects">Įgyvendinti projektai</a></div>
+                <div className='navList'><a href="/contacts">Kontaktai</a></div>
+                <div className='navList'><a href="/eng">ENG</a></div>
 
             </div>
         </div>
