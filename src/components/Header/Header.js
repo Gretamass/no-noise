@@ -10,11 +10,10 @@ const Header = () => {
   const [theme, setTheme] = useState("light"); 
 
   const themeToggler = () => {
-    console.log("SWITCH");
     theme === "light" ?
     setTheme("dark") :
     setTheme ("light");
-    console.log("SWITCHED");
+
   }
 
   return (
@@ -33,7 +32,7 @@ const Header = () => {
                 <div className='navList'><Link to="/projects">Įgyvendinti projektai</Link></div>
                 <div className='navList'><Link to="/contacts">Kontaktai</Link></div>
                 <div className='navList'><Link to="/eng">ENG</Link></div>
-                <button class="theme" onClick={themeToggler}></button>
+              {/* <button class="theme" onClick={themeToggler}></button> */}  
 
             </div>
 

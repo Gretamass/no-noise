@@ -19,6 +19,16 @@
   --button-text-dark: black;
 }
 
+
+:root{
+  --text-on-white: var(--text-on-white-light);
+  --background-white: var(--background-white-light);
+  --text-on-black: var(--text-on-black-light);
+  --background-black: var(--background-black-light);
+  --button-bg:  var(--button-bg-light);
+  --button-text: var(--button-text-light);
+}
+/*
 @media (prefers-color-scheme: dark){
 
   :root{
@@ -29,6 +39,7 @@
     --button-bg: var(--button-bg-dark);
     --button-text: var(--button-text-dark);
   }
+
 }
 
 [color-scheme="dark"]{
@@ -60,7 +71,7 @@
   --button-bg:  var(--button-bg-light);
   --button-text: var(--button-text-light);
 }
-
+*/
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
