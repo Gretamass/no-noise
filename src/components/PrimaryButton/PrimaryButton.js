@@ -1,11 +1,12 @@
 import React from 'react';
 import './PrimaryButton.css';
+import { Link } from 'react-router-dom';
 
 
-const PrimaryButton = ({buttontext}) => {
+const PrimaryButton = ({buttontext, link}) => {
   return (
         
-        <button className="primaryButton">{buttontext}</button>
+    <Link to={`${link}`}><button className="primaryButton">{buttontext}</button></Link>
     );
 };
 

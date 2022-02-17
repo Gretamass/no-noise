@@ -54,7 +54,7 @@
 }
 
 .companyContacts{
-    color: var( --accent-color);;
+    color: var( --accent-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -76,6 +76,14 @@
     text-align: right;
 }
 
+.infoContacts a{
+    color: var( --accent-color);
+}
+
+.infoContacts a:hover{
+    color: var( --accent-color-darker);
+}
+
 .c{
     color: var( --accent-color);;
     font-size: 0.9rem;
@@ -93,6 +101,10 @@
     width: 36px;
     height: 36px;
     color: var( --accent-color);;
+}
+
+.smIcon:hover{
+    color: var( --accent-color-darker);
 }
 /* background-color: var( --accent-color);; */
 

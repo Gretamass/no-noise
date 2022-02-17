@@ -1,6 +1,7 @@
 
 :root{
   --accent-color: #DBB124;
+  --accent-color-darker: #dfcc8b;
 
   /* LIGHT MODE */
   --text-on-white-light: black;

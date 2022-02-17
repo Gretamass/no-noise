@@ -31,7 +31,7 @@ const Services = ({data}) => {
                                     <NewlineText text={design.description} />
                                 </div>
                                 <div className='serviceButton'>
-                                    <PrimaryButton buttontext="Plačiau" />
+                                    <PrimaryButton buttontext="Plačiau" link={design.goTo} />
                                 </div>
                             </div>
                 

@@ -1,5 +1,5 @@
 .primaryButton{
-    background-color: var(--button-bg);
+    background-color: var(--button-gb-light);
     color: var(--button-text);
     height: 40px;
     width: 130px;

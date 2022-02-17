@@ -17,24 +17,28 @@ export const designData = [
        alt: "Triukšmo kontrolė ir akustika",
        name: "Triukšmo kontrolė ir akustika",
        description: "PATALPŲ AKUSTIKA\n  GARSO IZOLIACIJA\n TRIUKŠMO IR GARSO VALDYMO SPRENDIMAI",
+       goTo: "/design/akustika",
     },
     {
         image: design2,
         alt: "Garso maskavimas",
         name: "Garso maskavimas",
         description: 'GARSO MASKAVIMO TECHNIKA\n AKUSTINIS PASYVUS GARSO SLOPINIMAS\n AKTYVUS GARSO SLOPINIMAS',
+        goTo: "/design/garso-maskavimas",
     },
     {
         image: design3,
         alt: "EVAKUACINĖS IR GARSO PRANEŠIMO SISTEMOS",
         name: "EVAKUACINĖS IR GARSO PRANEŠIMO SISTEMOS",
         description: "PAVOJAUS ĮSPĖJIMO SISTEMOS\n INFORMACINĖS GARSO PRANEŠIMO SISTEMOS\n FONINĖS MUZIKOS ĮRANGA",
+        goTo: "/design/evakuacines-ir-garso-pranesimo-sistemos",
     },
     {
         image: design4,
         alt: "PROFESIONALIŲ GARSO SISTEMŲ PROJEKTAVIMAS",
         name: "PROFESIONALIŲ GARSO SISTEMŲ PROJEKTAVIMAS",
         description: "PROFESIONALIOS GARSO ĮRANGOS PROJEKTAVIMAS\n AKUSTIŠKAI SUDĖTINGI IR ESTETIŠKAI JAUTRŪS OBJEKTAI\n SINCHRONIZACIJA SU APŠVIETIMO,ĮRENGINIŲ KĖLIMO ĮRANGA,PASTATO\n VALDYMO SISTEMOMIS",
+        goTo: "/design/profesionaliu-garso-sistemu-projektavimas",
     }
 
 ]

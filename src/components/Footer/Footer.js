@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className='socialMedia'>
                         
-                            <Facebook className='smIcon' />
+                            <a href="https://www.facebook.com/NO-NOISE-706629889364397/?fref=ts"><Facebook className='smIcon' /></a>
                             <Instagram className='smIcon' />
                     </div>
               </div>
@@ -29,9 +29,9 @@ const Footer = () => {
                         Kontaktai
                     </div>
                     <div className='infoContacts'>
-                        info@nonoise.lt<br/>
-                        +370 656 822 87<br/>
-                        +370 655 755 08<br/>
+                        <a href="mailto:info@nonoise.lt">info@nonoise.lt</a><br/>
+                        <a href="+37065682287">+370 656 822 87</a><br/>
+                        <a href="+37065575508">+370 655 755 08</a><br/>
                     </div>
                 </div>
               </div>

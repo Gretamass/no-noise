@@ -10,8 +10,8 @@
     width: 100%;
     max-width: 1140px;
     height: fit-content;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: flex;
     justify-content: space-between;
     color: var(--text-on-white);
